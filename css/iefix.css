@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap			{width:940px;}
+.block			{width:405px; float:left;}
+.indexpage .block{width:360px;}
+.content		{width:390px; float:left;}
+.contimg		{display:block;}
+.login			{display:block; margin:-115px 80px 0 0;}
+.login img		{display:block;}
+.socialtop		{display:none; margin:-115px 0 0 880px;}
+.tw				{margin-top:-78px;}
+.largeindex		{display:block; width:890px;}
+.greyheader img	{display:block;}
+.largeindex		{margin:-20px; position:absolute;}
+.iepspace		{height:300px;}
+.indexpage p	{margin-top:0;}
+.login input	{border:1px solid black; background:white;}
+.loginbuton		{background:#145dd0;

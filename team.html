@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 
+    
+
+  	<!--
+	===================================
+	Designed & built by Katana
+	E-mail: info@katanalondon.com
+	Web: http://www.katanalondon.com
+	===================================
+
+	--> 
+
+
+	
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<!--[if lte IE 8]>  
+  <link type="text/css" rel="stylesheet" href="css/iefix.css">
+<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript">
+$(document).ready(function () {	
+	
+	$('.nav li').hover(
+		function () {
+			//show its submenu
+			$('ul', this).stop().slideDown(100);
+
+		}, 
+		function () {
+			//hide its submenu
+			$('ul', this).stop().slideUp(100);			
+		}
+	);
+	
+});
+	</script>
+<title>team | about | Bluebottle Technologies</title>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="masthead">
+        <img src="images/menuend.png" width="50" height="130" />
+        <a href="index.html"><img src="images/bluebottle.png" width="201" height="46" class="logo" /></a>
+        <img src="images/eye.png" width="24" height="30" class="eye" />
+        <div class="login">
+        	<img src="images/login-shaddow.jpg" width="13" height="130" />
+            <input name="" type="text" placeholder=" USERNAME" />
+            <input name="" type="password" placeholder=" PASSWORD" />
+            <div class="loginbuton"><center>LOGIN</center></div>
+            <a href="#">REGISTER</a>|<a href="#">Forgot Password</a>
+        </div><!--/login-->
+        <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.jpg" width="35" height="35" class="socialtop fb" /></a>
+        <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.jpg" width="35" height="35" class="socialtop tw" /></a>
+    </div><!--/masthead-->
+    <div class="nav">
+    	<div id="smoothmenu1" class="ddsmoothmenu">
+            <ul>
+                <li><a href="about.html" style="color:#2c7cfa;">about</a></li>
+                <li><a href="sectors.html">sectors</a></li>
+                <li><a href="solutions.html">solutions</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="news.html">news</a></li>
+                <li><a href="contact.php">contact</a></li>
+            </ul>
+        </div>
+    </div><!--/nav-->
+    <div class="page">
+    	<h1>about</h1>
+        <div class="block">
+        	<p>details</p>
+        </div><!--/block-->
+        <div class="clear"></div>
+    </div><!--/page-->
+    <div class="footer">
+        Copyright © 2012 Bluebottle Technologies. All Rights Reserved |<a href="sitemap.html">Site Map</a>|<a href="terms.html">Terms & Conditions</a>|<a href="privacy.html">Privacy Policy</a>|<a href="http://www.clean-revolution.com/" target="_blank">Site Credits</a>
+    </div><!--/footer-->
+</div><!--/wrap-->
+</body>
+</html>

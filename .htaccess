@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile  /opt/lampp/htdocs/passwords/.htpasswdbluebottle
+require valid-user
+

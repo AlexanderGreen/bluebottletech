@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media only screen and (min-width: 10px){
+body			{font:12px Arial, Helvetica, sans-serif;}
+.wrap			{width:100%;}
+.block			{width:100%;}
+.block p		{padding:0 10px 0 0;}
+.content		{width:210px; padding:0 20px 0 30px;}
+.content h2		{width:100%; font-size:19px;}
+.content p		{max-width:230px;}
+.contimg		{display:none;}
+.login			{display:none;}
+.login img		{display:none;}
+.socialtop		{display:none;}
+.largeindex		{display:none;}
+.greyheader img	{display:none;}
+.nav ul li		{font-size:10px; padding:0 3px;}
+.indexpage		{padding:0;}
+.indexpage h2	{font-size:15px; font-weight:bold; line-height:20px;}
+.menudownlist	{left: -146px;}
+
+}
+
+@media only screen and (min-width: 480px) {
+body			{font:15px Arial, Helvetica, sans-serif;}
+.wrap			{width:480px;}
+.block			{width:100%;}
+.block p		{padding:0 40px 0 0;}
+.content		{width:403px; padding:0 0 0 30px;}
+.content h2		{width:100%; font-size:22px;}
+.content p		{max-width:300px;}
+.contimg		{display:block;}
+.login			{display:block; margin:20px 20px 0 0;}
+.login img		{display:none;}
+.socialtop		{display:none; margin:-45px 0 0 90px;}
+.tw				{margin-left: 127px;}
+.largeindex		{display:block; width:480px;}
+.greyheader img	{display:block; width:440px;}
+.nav ul li		{font-size:10px; padding:0 15px;}
+.indexpage		{padding:20px 40px;}
+.indexpage h2	{font-size:24px;}
+.menudownlist	{left:0px;}
+
+@media only screen and (min-width: 940px) {
+body			{font:15px Arial, Helvetica, sans-serif;}
+.wrap			{width:940px;}
+.block			{width:405px;}
+.block p		{padding:0;}
+.indexpage .block{width:360px;}
+.content		{width:403px; padding:0 0 0 30px;}
+.content p		{max-width:300px;}
+.content h2		{width:280px; font-size:22px;}
+.contimg		{display:block;}
+.login			{display:block; margin:15px 80px 0 0;}
+.login img		{display:block;}
+.socialtop		{display:none; margin:-115px 0 0 880px;}
+.tw				{margin-top:-78px;}
+.largeindex		{display:block; width:940px;}
+.greyheader img	{display:block; width:900px}
+.nav ul li		{font-size:13px; padding:0 15px;}
+.indexpage		{padding:20px 40px;}
+.indexpage h2	{font-size:24px;}
+.menudownlist	{left:0px;}
+}

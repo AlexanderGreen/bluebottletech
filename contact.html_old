@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 
+    
+
+  	<!--
+	===================================
+	Designed & built by Katana
+	E-mail: info@katanalondon.com
+	Web: http://www.katanalondon.com
+	===================================
+
+	--> 
+
+
+	
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<!--[if lte IE 8]>  
+  <link type="text/css" rel="stylesheet" href="css/iefix.css">
+<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript">
+$(document).ready(function () {	
+	
+	$('.nav li').hover(
+		function () {
+			//show its submenu
+			$('ul', this).stop().slideDown(100);
+
+		}, 
+		function () {
+			//hide its submenu
+			$('ul', this).stop().slideUp(100);			
+		}
+	);
+	
+});
+	</script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<title>contact | Bluebottle Technologies</title>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="masthead">
+        <img src="images/menuend.png" width="50" height="130" />
+        <a href="index.html"><img src="images/bluebottle.png" width="201" height="46" class="logo" /></a>
+        <img src="images/eye.png" width="24" height="30" class="eye" />
+        <div class="login">
+        	<img src="images/login-shaddow.jpg" width="13" height="130" />
+            <input name="" type="text" placeholder=" USERNAME" />
+            <input name="" type="password" placeholder=" PASSWORD" />
+            <div class="loginbuton"><center>LOGIN</center></div>
+            <a href="#">REGISTER</a>|<a href="#">Forgot Password</a>
+        </div><!--/login-->
+        <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.jpg" width="35" height="35" class="socialtop fb" /></a>
+        <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.jpg" width="35" height="35" class="socialtop tw" /></a>
+    </div><!--/masthead-->
+    <div class="nav">
+            <ul>
+                <li id="ml1"><a href="index.html">home</a></li>
+        		<li id="ml2"><a href="about.html">about</a></li>
+                <li id="ml3"><a href="sectors.html">sectors</a>
+                	<div id="mdl3" class="menudownlist">
+                    	<div class="mdl"><a href="government.html">GOVERNMENT</a></div>
+                        <div class="mdl"><a href="commercial.html">COMMERCIAL</a></div>
+                    </div>
+                </li>
+                <li id="ml4"><a href="solutions.html">solutions</a>
+                	<div id="mdl4" class="menudownlist" style="width:250px;">
+                    	<div class="mdl"><a href="private-secure-networks.html">PRIVATE SECURITY NETWORKS</a></div>
+                      <div class="mdl"><a href="compound-perimeter-border.html">COMPOUND PERIMETER &amp; BORDER</a></div>
+                      <div class="mdl"><a href="retail.html">RETAIL</a></div>
+                      <div class="mdl"><a href="emergency-response.html">EMERGENCY RESPONSE (ERIC)</a></div>
+                  </div>
+                </li>
+                <li id="ml5"><a href="products.html">products</a>
+                	<div id="mdl5" class="menudownlist">
+                    	<div class="mdl"><a href="gsm.html">GSM</a></div>
+                        <div class="mdl"><a href="i4g.html">I4G</a></div>
+                        <div class="mdl"><a href="ip-networks.html">IP NETWORKS</a></div>
+                        <div class="mdl"><a href="mobile-commerse.html">MOBILE COMMERCE</a></div>
+                        <div class="mdl"><a href="premier-cell.html">PREMIER CELL</a></div>
+                        <div class="mdl"><a href="billing-platform.html">BILLING PLATFORM</a></div>
+                        <div class="mdl"><a href="cyber-security.html">CYBER SECURITY</a></div>
+                        <div class="mdl"><a href="back-haul.html">BACK HAUL</a></div>
+                        <div class="mdl"><a href="geospatial-imagery.html">GEOSPATIAL IMAGERY</a></div>
+                        <div class="mdl"><a href="asset-risk-management.html">ASSET RISK MANAGEMENT</a></div>
+                    </div>
+                </li>
+                <li id="ml6"><a href="news.html">news</a></li>
+                <li id="ml7"><a href="contact.html" style="color:#2c7cfa;">contact</a></li>
+            </ul>
+        </div><!--/nav-->
+    <div class="page">
+    	<h1><strong>CONTACT</strong></h1>
+        	<div class="block">
+            	<form name="htmlform" method="post" action="html_form_send.php" class="contactform">
+                    <table width="450px">
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="first_name">First Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="first_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                     
+                    <tr>
+                     <td valign="top">
+                      <label for="last_name">Last Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="last_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="email">Email Address *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="email" maxlength="80" size="30">
+                     </td>
+                     
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="telephone">Telephone Number</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="telephone" maxlength="30" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="comments">Comments *</label>
+                     </td>
+                     <td valign="top">
+                      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                     </td>
+                     
+                    </tr>
+                    <tr>
+                     <td colspan="2" style="text-align:center">
+                      <input type="submit" value="Submit">
+                     </td>
+                    </tr>
+                    </table>
+                </form>
+            </div><!--/block-->
+        <div class="clear"></div>
+    </div><!--/page-->
+    <div class="footer">
+        Copyright © 2012 Bluebottle Technologies. All Rights Reserved |<a href="sitemap.html">Site Map</a>|<a href="terms.html">Terms & Conditions</a>|<a href="privacy.html">Privacy Policy</a>|<a href="http://www.clean-revolution.com/" target="_blank">Site Credits</a>
+    </div><!--/footer-->
+</div><!--/wrap-->
+</body>
+</html>

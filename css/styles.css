@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	overflow-y: scroll;
+}
+body{
+	background:url(../images/bg.jpg) repeat;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	border:none;
+}
+img{
+	border:none;
+}
+.padding{
+	padding:40px;
+}
+.wrap{
+	margin:0 auto;
+}
+.masthead{
+	background:white;
+}
+.logo{
+	vertical-align:top;
+	margin:30px 0 0 30px;
+}
+.eye{
+	margin: 48px 0 0 -324px;
+	position: absolute;
+}
+.nav{
+	background:#272627;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+}
+.nav ul{
+	margin-top:0;
+}
+.nav ul li{/*dc edit*/
+	list-style:none;
+	display:inline-block;
+	background:none;
+	position:relative;
+	height:35px;
+	line-height:35px;
+	margin-left:-4px;
+	z-index:2;
+}
+.nav ul li a{
+	color:white;
+}
+
+.page{
+	padding:20px;
+	background:white;
+}
+h1{
+	background:url(../images/headbg.jpg) repeat;
+	padding:13px 20px;
+	color:white;
+	font:16px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:capitalize;
+	margin:0;
+	-moz-box-shadow: 0px 2px 2px #7f7f7f;
+	-webkit-box-shadow: 0px 2px 2px #7f7f7f;
+	box-shadow: 0px 2px 2px #7f7f7f;
+	vertical-align:top;
+}
+h2{
+	text-transform:capitalize;
+	vertical-align:top;
+}
+ul li{
+	line-height:22px;
+	list-style:none;
+	padding:0 0 0 25px;
+	font-weight:bold;
+	background:url(../images/bullet.jpg) left center no-repeat;
+	margin: 0 0 0 -40px;
+}
+.clear{
+	clear:both;
+}
+.block{
+	display:inline-table;
+	padding:0 20px;
+	vertical-align:top;
+}
+.block p{
+	margin:25px 0;
+	line-height:22px;
+	vertical-align:top;
+}
+.wide{
+	padding:20px 0 0 20px;
+	line-height:22px;
+}
+.content{
+	border:3px solid #e6e6e6;
+	margin:20px 0 0 0;
+	display:inline-table;
+	height:159px;
+}
+.content h2{
+	position:absolute;
+	width:280px;
+	color:#323132;
+}
+.content p{
+	min-height: 40px;
+	color:#505050;
+	line-height:22px;
+	z-index: 2;
+	position: absolute;
+	margin-top:50px;
+}
+.contimg{
+	float:right;
+	position:relative;
+}
+.footer{
+	text-align:center;
+	margin:15px auto;
+	font-size:10px;
+	color:white;
+}
+.footer a{
+	text-decoration:none;
+	color:white;
+	padding:0 6px;
+}
+.login{
+	width:150px; 
+	font-size:9px; 
+	font-weight:bold;
+	float:right;
+	display:none;
+}
+.login input{
+	background:-webkit-gradient(linear, 49% 100%, 49% 0%, from(#f4f4f4), to(#e4e4e4));
+	border:0;
+	-moz-box-shadow:inset 1px 1px 2px #b0b0b0; 
+	-webkit-box-shadow:inset 1px 1px 2px #b0b0b0; 
+	box-shadow:inset 1px 1px 2px #b0b0b0; 
+	width:146px; 
+	height:21px; 
+	margin-bottom:4px; 
+	font-size:10px; 
+	padding:0 0 0 5px;
+}
+.loginbuton{
+	border:1px solid #0b4094; 
+	width:149px; 
+	height:19px;
+	background:-webkit-gradient(linear, 49% 100%, 49% 0%, from(#0b4195), to(#145dd0)); 
+	font:12px Arial, Helvetica, sans-serif; 
+	color:white; 
+	line-height:20px; 
+	cursor:pointer; 
+	margin:0 0 15px 0;
+}
+.login a{
+	text-decoration:none; 
+	color:black; 
+	margin:0 5px;
+}
+.login img{
+	position: absolute;
+	margin: -20px -35px;
+}
+.button{
+	width:100px; 
+	height:30px;
+	background:url(../images/more.jpg);
+	margin-top:110px;
+	position: absolute;
+}
+.socialtop{
+	position: absolute;
+}
+.largeindex	{
+	margin:-20px 0 10px -20px;
+	-moz-box-shadow: 0px 2px 2px #7f7f7f;
+	-webkit-box-shadow: 0px 2px 2px #7f7f7f;
+	box-shadow: 0px 2px 2px #7f7f7f;
+}
+.indexpage h2{
+	line-height:30px;
+	text-transform:none;
+}
+.indexpage p{
+	font-size:15px;
+}
+.greyheader img{
+	position:relative;
+	-moz-box-shadow: 0px 0px 2px #7f7f7f;
+	-webkit-box-shadow: 0px 0px 2px #7f7f7f;
+	box-shadow: 0px 0px 2px #7f7f7f;
+	z-index:0;
+}
+.greyheader ul{
+	float:left;
+}
+.greyheader p{
+	margin: 40px 0 0 40px;
+	font-weight: bold;
+	line-height: 20px;
+	width: 650px;
+}
+.contactform{
+	margin-top:30px;
+}
+
+/*dc added*/
+.menudownlist{
+	position:absolute;
+	background:#0b4094;
+	color:#FFFFFF;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:207px;
+	display:none;
+}
+.mdl{
+	position:relative;
+	height:29px;
+	line-height:29px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:1px solid #3c66a9;
+	text-overflow:ellipsis; 
+	overflow:hidden; 
+	white-space:nowrap;
+}
+.mdl:last-child{
+	border-bottom:0px;
+}
+#ml3{}
+#ml4{display:none;}
+#ml6{display:none;}
